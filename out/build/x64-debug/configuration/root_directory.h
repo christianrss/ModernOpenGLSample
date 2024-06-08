@@ -1,1 +1,1 @@
-const char * logl_root = "D:/proj/Model";
+const char * logl_root = "G:/Projetos/ModernOpenGLSample";

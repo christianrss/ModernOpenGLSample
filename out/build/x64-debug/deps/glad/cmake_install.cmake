@@ -1,8 +1,8 @@
-# Install script for directory: D:/proj/Model/deps/glad
+# Install script for directory: G:/Projetos/ModernOpenGLSample/deps/glad
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "D:/proj/Model/out/install/x64-debug")
+  set(CMAKE_INSTALL_PREFIX "G:/Projetos/ModernOpenGLSample/out/install/x64-debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

@@ -1,426 +1,429 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\CCompilerTest.c">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\CCompilerTest.c">
       <Filter>UnitTests\Compiler</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\Main.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\code\Common\Version.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\code\Common\Version.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\code\Common\Base64.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\code\Common\Base64.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utSimd.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utSimd.cpp">
       <Filter>UnitTests\Common</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utIOSystem.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utIOSystem.cpp">
       <Filter>UnitTests\Common</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utIOStreamBuffer.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utIOStreamBuffer.cpp">
       <Filter>UnitTests\Common</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utIssues.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utIssues.cpp">
       <Filter>UnitTests\Common</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utAnim.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utAnim.cpp">
       <Filter>UnitTests\Common</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\AssimpAPITest.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\AssimpAPITest.cpp">
       <Filter>UnitTests\Common</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\AssimpAPITest_aiMatrix3x3.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\AssimpAPITest_aiMatrix3x3.cpp">
       <Filter>UnitTests\Common</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\AssimpAPITest_aiMatrix4x4.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\AssimpAPITest_aiMatrix4x4.cpp">
       <Filter>UnitTests\Common</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\AssimpAPITest_aiQuaternion.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\AssimpAPITest_aiQuaternion.cpp">
       <Filter>UnitTests\Common</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\AssimpAPITest_aiVector2D.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\AssimpAPITest_aiVector2D.cpp">
       <Filter>UnitTests\Common</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\AssimpAPITest_aiVector3D.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\AssimpAPITest_aiVector3D.cpp">
       <Filter>UnitTests\Common</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\MathTest.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\MathTest.cpp">
       <Filter>UnitTests\Common</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utBatchLoader.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utBatchLoader.cpp">
       <Filter>UnitTests\Common</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utDefaultIOStream.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utDefaultIOStream.cpp">
       <Filter>UnitTests\Common</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utFastAtof.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utFastAtof.cpp">
       <Filter>UnitTests\Common</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utMetadata.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utMetadata.cpp">
       <Filter>UnitTests\Common</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\SceneDiffer.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\SceneDiffer.cpp">
       <Filter>UnitTests\Common</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\AbstractImportExportBase.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\AbstractImportExportBase.cpp">
       <Filter>UnitTests\Common</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utTypes.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utTypes.cpp">
       <Filter>UnitTests\Common</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utVersion.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utVersion.cpp">
       <Filter>UnitTests\Common</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utProfiler.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utProfiler.cpp">
       <Filter>UnitTests\Common</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utSharedPPData.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utSharedPPData.cpp">
       <Filter>UnitTests\Common</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utStringUtils.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utStringUtils.cpp">
       <Filter>UnitTests\Common</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\Common\utMaybe.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\Common\utMaybe.cpp">
       <Filter>UnitTests\Common</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\Common\utMesh.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\Common\utMesh.cpp">
       <Filter>UnitTests\Common</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\Common\utStandardShapes.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\Common\utStandardShapes.cpp">
       <Filter>UnitTests\Common</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\Common\uiScene.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\Common\uiScene.cpp">
       <Filter>UnitTests\Common</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\Common\utLineSplitter.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\Common\utLineSplitter.cpp">
       <Filter>UnitTests\Common</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\Common\utSpatialSort.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\Common\utSpatialSort.cpp">
       <Filter>UnitTests\Common</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\Common\utAssertHandler.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\Common\utAssertHandler.cpp">
       <Filter>UnitTests\Common</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\Common\utXmlParser.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\Common\utXmlParser.cpp">
       <Filter>UnitTests\Common</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\Common\utBase64.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\Common\utBase64.cpp">
       <Filter>UnitTests\Common</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\Common\utHash.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\Common\utHash.cpp">
       <Filter>UnitTests\Common</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\Common\utBaseProcess.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\Common\utBaseProcess.cpp">
       <Filter>UnitTests\Common</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\Geometry\utGeometryUtils.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\Geometry\utGeometryUtils.cpp">
       <Filter>UnitTests\GeometryTools</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\ImportExport\Assxml\utAssxmlImportExport.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\ImportExport\Assxml\utAssxmlImportExport.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utLWSImportExport.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utLWSImportExport.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utLWOImportExport.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utLWOImportExport.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utSMDImportExport.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utSMDImportExport.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utglTFImportExport.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utglTFImportExport.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utglTF2ImportExport.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utglTF2ImportExport.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utHMPImportExport.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utHMPImportExport.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utIFCImportExport.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utIFCImportExport.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utFBXImporterExporter.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utFBXImporterExporter.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utImporter.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utImporter.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\ImportExport\utExporter.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\ImportExport\utExporter.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\ut3DImportExport.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\ut3DImportExport.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\ut3DSImportExport.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\ut3DSImportExport.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utACImportExport.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utACImportExport.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utAMFImportExport.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utAMFImportExport.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utASEImportExport.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utASEImportExport.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utD3MFImportExport.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utD3MFImportExport.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utQ3DImportExport.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utQ3DImportExport.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utSTLImportExport.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utSTLImportExport.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utXImporterExporter.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utXImporterExporter.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utX3DImportExport.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utX3DImportExport.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utDXFImporterExporter.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utDXFImporterExporter.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utPMXImporter.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utPMXImporter.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utPLYImportExport.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utPLYImportExport.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utObjImportExport.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utObjImportExport.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utObjTools.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utObjTools.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utOpenGEXImportExport.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utOpenGEXImportExport.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utSIBImporter.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utSIBImporter.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utBlenderIntermediate.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utBlenderIntermediate.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utBlendImportAreaLight.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utBlendImportAreaLight.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utBlenderImportExport.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utBlenderImportExport.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utBlendImportMaterials.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utBlendImportMaterials.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utBlenderWork.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utBlenderWork.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utBVHImportExport.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utBVHImportExport.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utColladaExport.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utColladaExport.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utColladaImportExport.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utColladaImportExport.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utCSMImportExport.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utCSMImportExport.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utB3DImportExport.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utB3DImportExport.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utMDCImportExport.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utMDCImportExport.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utAssbinImportExport.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utAssbinImportExport.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\ImportExport\utAssjsonImportExport.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\ImportExport\utAssjsonImportExport.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\ImportExport\utCOBImportExport.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\ImportExport\utCOBImportExport.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\ImportExport\utOgreImportExport.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\ImportExport\utOgreImportExport.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\ImportExport\utQ3BSPFileImportExport.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\ImportExport\utQ3BSPFileImportExport.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\ImportExport\utOFFImportExport.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\ImportExport\utOFFImportExport.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\ImportExport\utNFFImportExport.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\ImportExport\utNFFImportExport.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\ImportExport\utXGLImportExport.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\ImportExport\utXGLImportExport.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\ImportExport\utMD2Importer.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\ImportExport\utMD2Importer.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\ImportExport\utMD5Importer.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\ImportExport\utMD5Importer.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\ImportExport\utMDLImporter.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\ImportExport\utMDLImporter.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\ImportExport\MDL\utMDLImporter_HL1_ImportSettings.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\ImportExport\MDL\utMDLImporter_HL1_ImportSettings.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\ImportExport\MDL\utMDLImporter_HL1_Materials.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\ImportExport\MDL\utMDLImporter_HL1_Materials.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\ImportExport\MDL\utMDLImporter_HL1_Nodes.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\ImportExport\MDL\utMDLImporter_HL1_Nodes.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\ImportExport\RAW\utRAWImportExport.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\ImportExport\RAW\utRAWImportExport.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\ImportExport\Terragen\utTerragenImportExport.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\ImportExport\Terragen\utTerragenImportExport.cpp">
       <Filter>UnitTests\ImportExport</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utMaterialSystem.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\ImportExport\Pbrt\utPbrtImportExport.cpp">
+      <Filter>UnitTests\ImportExport</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utMaterialSystem.cpp">
       <Filter>UnitTests\Material</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utMatrix3x3.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utMatrix3x3.cpp">
       <Filter>UnitTests\Math</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utMatrix4x4.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utMatrix4x4.cpp">
       <Filter>UnitTests\Math</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utVector3.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utVector3.cpp">
       <Filter>UnitTests\Math</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utImproveCacheLocality.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utImproveCacheLocality.cpp">
       <Filter>UnitTests\PostProcess</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utFixInfacingNormals.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utFixInfacingNormals.cpp">
       <Filter>UnitTests\PostProcess</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utGenNormals.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utGenNormals.cpp">
       <Filter>UnitTests\PostProcess</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utTriangulate.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utTriangulate.cpp">
       <Filter>UnitTests\PostProcess</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utTextureTransform.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utTextureTransform.cpp">
       <Filter>UnitTests\PostProcess</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utRemoveRedundantMaterials.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utRemoveRedundantMaterials.cpp">
       <Filter>UnitTests\PostProcess</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utRemoveVCProcess.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utRemoveVCProcess.cpp">
       <Filter>UnitTests\PostProcess</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utScaleProcess.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utScaleProcess.cpp">
       <Filter>UnitTests\PostProcess</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utArmaturePopulate.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utArmaturePopulate.cpp">
       <Filter>UnitTests\PostProcess</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utJoinVertices.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utJoinVertices.cpp">
       <Filter>UnitTests\PostProcess</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utRemoveComments.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utRemoveComments.cpp">
       <Filter>UnitTests\PostProcess</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utRemoveComponent.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utRemoveComponent.cpp">
       <Filter>UnitTests\PostProcess</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utVertexTriangleAdjacency.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utVertexTriangleAdjacency.cpp">
       <Filter>UnitTests\PostProcess</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utSplitLargeMeshes.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utSplitLargeMeshes.cpp">
       <Filter>UnitTests\PostProcess</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utFindDegenerates.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utFindDegenerates.cpp">
       <Filter>UnitTests\PostProcess</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utFindInvalidData.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utFindInvalidData.cpp">
       <Filter>UnitTests\PostProcess</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utLimitBoneWeights.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utLimitBoneWeights.cpp">
       <Filter>UnitTests\PostProcess</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utPretransformVertices.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utPretransformVertices.cpp">
       <Filter>UnitTests\PostProcess</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utScenePreprocessor.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utScenePreprocessor.cpp">
       <Filter>UnitTests\PostProcess</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utTargetAnimation.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utTargetAnimation.cpp">
       <Filter>UnitTests\PostProcess</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utSortByPType.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utSortByPType.cpp">
       <Filter>UnitTests\PostProcess</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utSceneCombiner.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utSceneCombiner.cpp">
       <Filter>UnitTests\PostProcess</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utGenBoundingBoxesProcess.cpp">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utGenBoundingBoxesProcess.cpp">
       <Filter>UnitTests\PostProcess</Filter>
     </ClCompile>
-    <ClCompile Include="D:\proj\Model\deps\assimp\contrib\googletest\googletest\src\gtest-all.cc">
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\googletest\googletest\src\gtest-all.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\proj\Model\deps\assimp\test\unit\MathTest.h">
+    <ClInclude Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\MathTest.h">
       <Filter>UnitTests\Common</Filter>
     </ClInclude>
-    <ClInclude Include="D:\proj\Model\deps\assimp\test\unit\RandomNumberGeneration.h">
+    <ClInclude Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\RandomNumberGeneration.h">
       <Filter>UnitTests\Common</Filter>
     </ClInclude>
-    <ClInclude Include="D:\proj\Model\deps\assimp\test\unit\SceneDiffer.h">
+    <ClInclude Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\SceneDiffer.h">
       <Filter>UnitTests\Common</Filter>
     </ClInclude>
-    <ClInclude Include="D:\proj\Model\deps\assimp\test\unit\UTLogStream.h">
+    <ClInclude Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\UTLogStream.h">
       <Filter>UnitTests\Common</Filter>
     </ClInclude>
-    <ClInclude Include="D:\proj\Model\deps\assimp\test\unit\TestIOSystem.h">
+    <ClInclude Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\TestIOSystem.h">
       <Filter>UnitTests\Common</Filter>
     </ClInclude>
-    <ClInclude Include="D:\proj\Model\deps\assimp\test\unit\TestModelFactory.h">
+    <ClInclude Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\TestModelFactory.h">
       <Filter>UnitTests\Common</Filter>
     </ClInclude>
-    <ClInclude Include="D:\proj\Model\deps\assimp\test\unit\ImportExport\MDL\MDLHL1TestFiles.h">
+    <ClInclude Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\ImportExport\MDL\MDLHL1TestFiles.h">
       <Filter>UnitTests\ImportExport</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\proj\Model\deps\assimp\test\CMakeLists.txt" />
+    <CustomBuild Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{E4C8B464-1CE9-3108-83F0-F7581F026ECB}</UniqueIdentifier>
+      <UniqueIdentifier>{549D0DAB-D932-3F17-9EFD-2E933D5017B6}</UniqueIdentifier>
     </Filter>
     <Filter Include="UnitTests">
-      <UniqueIdentifier>{DFF7336F-0F06-3AFC-AC2E-E0432061F916}</UniqueIdentifier>
+      <UniqueIdentifier>{79841E36-0AB6-32F8-BEA3-FA89B16297C2}</UniqueIdentifier>
     </Filter>
     <Filter Include="UnitTests\Common">
-      <UniqueIdentifier>{163152E6-3FF6-3AB3-A48D-4E05AF73F461}</UniqueIdentifier>
+      <UniqueIdentifier>{2752BFE0-E6BB-3CCD-9CA0-07A2E6AD7423}</UniqueIdentifier>
     </Filter>
     <Filter Include="UnitTests\Compiler">
-      <UniqueIdentifier>{DCB781C6-084C-30F5-8865-12AB98953E6B}</UniqueIdentifier>
+      <UniqueIdentifier>{D8EBBF78-AC4B-3F63-85C9-904517FCECFC}</UniqueIdentifier>
     </Filter>
     <Filter Include="UnitTests\GeometryTools">
-      <UniqueIdentifier>{0A2DB8BA-FA07-3860-9392-77134670EC06}</UniqueIdentifier>
+      <UniqueIdentifier>{11C1AA13-444D-3468-B497-E5D126062006}</UniqueIdentifier>
     </Filter>
     <Filter Include="UnitTests\ImportExport">
-      <UniqueIdentifier>{DD7571D2-BB20-3F24-9152-39B727013A02}</UniqueIdentifier>
+      <UniqueIdentifier>{E93CCAFF-B874-381D-9DA7-0CCFA0F085C4}</UniqueIdentifier>
     </Filter>
     <Filter Include="UnitTests\Material">
-      <UniqueIdentifier>{3A1D89B9-FB4A-31DD-B0BE-38EBEA038BF3}</UniqueIdentifier>
+      <UniqueIdentifier>{FA1A603E-9295-39F3-9B90-46DCEE3E8E22}</UniqueIdentifier>
     </Filter>
     <Filter Include="UnitTests\Math">
-      <UniqueIdentifier>{EDB8899B-775E-371A-8321-381E69B928FB}</UniqueIdentifier>
+      <UniqueIdentifier>{E70AC7EA-D149-364B-A340-8AB68A284AE2}</UniqueIdentifier>
     </Filter>
     <Filter Include="UnitTests\PostProcess">
-      <UniqueIdentifier>{1A52FBE4-483F-3EF7-9ACA-39969F48952A}</UniqueIdentifier>
+      <UniqueIdentifier>{5A360A18-995C-32C3-BC04-15965CC44365}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

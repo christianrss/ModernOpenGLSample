@@ -22,9 +22,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{1CD63572-DDFF-3171-987D-6799AF1598BE}</ProjectGuid>
+    <ProjectGuid>{E331960F-6F07-3D90-8314-9B9903C0F5DC}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
     <ProjectName>unit</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\proj\Model\deps\assimp\build\bin\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\bin\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">unit.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">unit</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\proj\Model\deps\assimp\build\bin\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\bin\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">unit.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">unit</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\proj\Model\deps\assimp\build\bin\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\bin\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">unit.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">unit</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\proj\Model\deps\assimp\build\bin\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\bin\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">unit.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">unit</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\proj\Model\deps\assimp\build\include;D:\proj\Model\deps\assimp\build;D:\proj\Model\deps\assimp\include;D:\proj\Model\deps\assimp\code;D:\proj\Model\deps\assimp\.;D:\proj\Model\deps\assimp\contrib\zlib;D:\proj\Model\deps\assimp\build\contrib\zlib;D:\proj\Model\deps\assimp\test\unit;D:\proj\Model\deps\assimp\contrib\googletest\googletest\include;D:\proj\Model\deps\assimp\contrib\googletest\googletest;D:\proj\Model\deps\assimp\contrib\pugixml\src;D:\proj\Model\deps\assimp\test\..\contrib\rapidjson\include;D:\proj\Model\deps\assimp\code\..\include;D:\proj\Model\deps\assimp\build\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\include;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64;G:\Projetos\ModernOpenGLSample\deps\assimp\include;G:\Projetos\ModernOpenGLSample\deps\assimp\code;G:\Projetos\ModernOpenGLSample\deps\assimp\.;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\zlib;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\contrib\zlib;G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\googletest\googletest\include;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\googletest\googletest;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\pugixml\src;G:\Projetos\ModernOpenGLSample\deps\assimp\test\..\contrib\rapidjson\include;G:\Projetos\ModernOpenGLSample\deps\assimp\code\..\include;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -95,23 +95,25 @@
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
-      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
       <TreatWarningAsError>true</TreatWarningAsError>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;_DEBUG;ASSIMP_BUILD_NO_M3D_IMPORTER;ASSIMP_BUILD_NO_M3D_EXPORTER;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;ASSIMP_BUILD_NO_C4D_IMPORTER;RAPIDJSON_HAS_STDSTRING=1;RAPIDJSON_NOMEMBERITERATORCLASS;ASSIMP_TEST_MODELS_DIR="D:/proj/Model/deps/assimp/test/models";ASSIMP_TEST_MODELS_NONBSD_DIR="D:/proj/Model/deps/assimp/test/models-nonbsd";_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;_DEBUG;ASSIMP_BUILD_NO_M3D_IMPORTER;ASSIMP_BUILD_NO_M3D_EXPORTER;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;ASSIMP_BUILD_NO_C4D_IMPORTER;RAPIDJSON_HAS_STDSTRING=1;RAPIDJSON_NOMEMBERITERATORCLASS;ASSIMP_TEST_MODELS_DIR="G:/Projetos/ModernOpenGLSample/deps/assimp/test/models";ASSIMP_TEST_MODELS_NONBSD_DIR="G:/Projetos/ModernOpenGLSample/deps/assimp/test/models-nonbsd";_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;ASSIMP_BUILD_NO_M3D_IMPORTER;ASSIMP_BUILD_NO_M3D_EXPORTER;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;ASSIMP_BUILD_NO_C4D_IMPORTER;RAPIDJSON_HAS_STDSTRING=1;RAPIDJSON_NOMEMBERITERATORCLASS;ASSIMP_TEST_MODELS_DIR=\"D:/proj/Model/deps/assimp/test/models\";ASSIMP_TEST_MODELS_NONBSD_DIR=\"D:/proj/Model/deps/assimp/test/models-nonbsd\";_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\proj\Model\deps\assimp\build\include;D:\proj\Model\deps\assimp\build;D:\proj\Model\deps\assimp\include;D:\proj\Model\deps\assimp\code;D:\proj\Model\deps\assimp\.;D:\proj\Model\deps\assimp\contrib\zlib;D:\proj\Model\deps\assimp\build\contrib\zlib;D:\proj\Model\deps\assimp\test\unit;D:\proj\Model\deps\assimp\contrib\googletest\googletest\include;D:\proj\Model\deps\assimp\contrib\googletest\googletest;D:\proj\Model\deps\assimp\contrib\pugixml\src;D:\proj\Model\deps\assimp\test\..\contrib\rapidjson\include;D:\proj\Model\deps\assimp\code\..\include;D:\proj\Model\deps\assimp\build\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;ASSIMP_BUILD_NO_M3D_IMPORTER;ASSIMP_BUILD_NO_M3D_EXPORTER;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;ASSIMP_BUILD_NO_C4D_IMPORTER;RAPIDJSON_HAS_STDSTRING=1;RAPIDJSON_NOMEMBERITERATORCLASS;ASSIMP_TEST_MODELS_DIR=\"G:/Projetos/ModernOpenGLSample/deps/assimp/test/models\";ASSIMP_TEST_MODELS_NONBSD_DIR=\"G:/Projetos/ModernOpenGLSample/deps/assimp/test/models-nonbsd\";_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\include;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64;G:\Projetos\ModernOpenGLSample\deps\assimp\include;G:\Projetos\ModernOpenGLSample\deps\assimp\code;G:\Projetos\ModernOpenGLSample\deps\assimp\.;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\zlib;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\contrib\zlib;G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\googletest\googletest\include;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\googletest\googletest;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\pugixml\src;G:\Projetos\ModernOpenGLSample\deps\assimp\test\..\contrib\rapidjson\include;G:\Projetos\ModernOpenGLSample\deps\assimp\code\..\include;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\proj\Model\deps\assimp\build\include;D:\proj\Model\deps\assimp\build;D:\proj\Model\deps\assimp\include;D:\proj\Model\deps\assimp\code;D:\proj\Model\deps\assimp\.;D:\proj\Model\deps\assimp\contrib\zlib;D:\proj\Model\deps\assimp\build\contrib\zlib;D:\proj\Model\deps\assimp\test\unit;D:\proj\Model\deps\assimp\contrib\googletest\googletest\include;D:\proj\Model\deps\assimp\contrib\googletest\googletest;D:\proj\Model\deps\assimp\contrib\pugixml\src;D:\proj\Model\deps\assimp\test\..\contrib\rapidjson\include;D:\proj\Model\deps\assimp\code\..\include;D:\proj\Model\deps\assimp\build\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\include;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64;G:\Projetos\ModernOpenGLSample\deps\assimp\include;G:\Projetos\ModernOpenGLSample\deps\assimp\code;G:\Projetos\ModernOpenGLSample\deps\assimp\.;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\zlib;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\contrib\zlib;G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\googletest\googletest\include;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\googletest\googletest;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\pugixml\src;G:\Projetos\ModernOpenGLSample\deps\assimp\test\..\contrib\rapidjson\include;G:\Projetos\ModernOpenGLSample\deps\assimp\code\..\include;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -120,12 +122,12 @@
     </Midl>
     <Link>
       <AdditionalDependencies>..\lib\Debug\assimp-vc143-mtd.lib;..\contrib\zlib\Debug\zlibstaticd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>D:/proj/Model/deps/assimp/build;D:/proj/Model/deps/assimp/build/$(Configuration);/lib;/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>G:/Projetos/ModernOpenGLSample/deps/assimp/build/x64;G:/Projetos/ModernOpenGLSample/deps/assimp/build/x64/$(Configuration);/lib;/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/proj/Model/deps/assimp/build/lib/Debug/unit.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/proj/Model/deps/assimp/build/bin/Debug/unit.pdb</ProgramDataBaseFile>
+      <ImportLibrary>G:/Projetos/ModernOpenGLSample/deps/assimp/build/x64/lib/Debug/unit.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/Projetos/ModernOpenGLSample/deps/assimp/build/x64/bin/Debug/unit.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -134,32 +136,35 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\proj\Model\deps\assimp\build\include;D:\proj\Model\deps\assimp\build;D:\proj\Model\deps\assimp\include;D:\proj\Model\deps\assimp\code;D:\proj\Model\deps\assimp\.;D:\proj\Model\deps\assimp\contrib\zlib;D:\proj\Model\deps\assimp\build\contrib\zlib;D:\proj\Model\deps\assimp\test\unit;D:\proj\Model\deps\assimp\contrib\googletest\googletest\include;D:\proj\Model\deps\assimp\contrib\googletest\googletest;D:\proj\Model\deps\assimp\contrib\pugixml\src;D:\proj\Model\deps\assimp\test\..\contrib\rapidjson\include;D:\proj\Model\deps\assimp\code\..\include;D:\proj\Model\deps\assimp\build\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\include;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64;G:\Projetos\ModernOpenGLSample\deps\assimp\include;G:\Projetos\ModernOpenGLSample\deps\assimp\code;G:\Projetos\ModernOpenGLSample\deps\assimp\.;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\zlib;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\contrib\zlib;G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\googletest\googletest\include;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\googletest\googletest;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\pugixml\src;G:\Projetos\ModernOpenGLSample\deps\assimp\test\..\contrib\rapidjson\include;G:\Projetos\ModernOpenGLSample\deps\assimp\code\..\include;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DisableSpecificWarnings>4244</DisableSpecificWarnings>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
-      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
       <TreatWarningAsError>true</TreatWarningAsError>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NDEBUG;ASSIMP_BUILD_NO_M3D_IMPORTER;ASSIMP_BUILD_NO_M3D_EXPORTER;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;ASSIMP_BUILD_NO_C4D_IMPORTER;RAPIDJSON_HAS_STDSTRING=1;RAPIDJSON_NOMEMBERITERATORCLASS;ASSIMP_TEST_MODELS_DIR="D:/proj/Model/deps/assimp/test/models";ASSIMP_TEST_MODELS_NONBSD_DIR="D:/proj/Model/deps/assimp/test/models-nonbsd";_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NDEBUG;ASSIMP_BUILD_NO_M3D_IMPORTER;ASSIMP_BUILD_NO_M3D_EXPORTER;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;ASSIMP_BUILD_NO_C4D_IMPORTER;RAPIDJSON_HAS_STDSTRING=1;RAPIDJSON_NOMEMBERITERATORCLASS;ASSIMP_TEST_MODELS_DIR="G:/Projetos/ModernOpenGLSample/deps/assimp/test/models";ASSIMP_TEST_MODELS_NONBSD_DIR="G:/Projetos/ModernOpenGLSample/deps/assimp/test/models-nonbsd";_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NDEBUG;ASSIMP_BUILD_NO_M3D_IMPORTER;ASSIMP_BUILD_NO_M3D_EXPORTER;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;ASSIMP_BUILD_NO_C4D_IMPORTER;RAPIDJSON_HAS_STDSTRING=1;RAPIDJSON_NOMEMBERITERATORCLASS;ASSIMP_TEST_MODELS_DIR=\"D:/proj/Model/deps/assimp/test/models\";ASSIMP_TEST_MODELS_NONBSD_DIR=\"D:/proj/Model/deps/assimp/test/models-nonbsd\";_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\proj\Model\deps\assimp\build\include;D:\proj\Model\deps\assimp\build;D:\proj\Model\deps\assimp\include;D:\proj\Model\deps\assimp\code;D:\proj\Model\deps\assimp\.;D:\proj\Model\deps\assimp\contrib\zlib;D:\proj\Model\deps\assimp\build\contrib\zlib;D:\proj\Model\deps\assimp\test\unit;D:\proj\Model\deps\assimp\contrib\googletest\googletest\include;D:\proj\Model\deps\assimp\contrib\googletest\googletest;D:\proj\Model\deps\assimp\contrib\pugixml\src;D:\proj\Model\deps\assimp\test\..\contrib\rapidjson\include;D:\proj\Model\deps\assimp\code\..\include;D:\proj\Model\deps\assimp\build\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NDEBUG;ASSIMP_BUILD_NO_M3D_IMPORTER;ASSIMP_BUILD_NO_M3D_EXPORTER;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;ASSIMP_BUILD_NO_C4D_IMPORTER;RAPIDJSON_HAS_STDSTRING=1;RAPIDJSON_NOMEMBERITERATORCLASS;ASSIMP_TEST_MODELS_DIR=\"G:/Projetos/ModernOpenGLSample/deps/assimp/test/models\";ASSIMP_TEST_MODELS_NONBSD_DIR=\"G:/Projetos/ModernOpenGLSample/deps/assimp/test/models-nonbsd\";_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\include;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64;G:\Projetos\ModernOpenGLSample\deps\assimp\include;G:\Projetos\ModernOpenGLSample\deps\assimp\code;G:\Projetos\ModernOpenGLSample\deps\assimp\.;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\zlib;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\contrib\zlib;G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\googletest\googletest\include;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\googletest\googletest;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\pugixml\src;G:\Projetos\ModernOpenGLSample\deps\assimp\test\..\contrib\rapidjson\include;G:\Projetos\ModernOpenGLSample\deps\assimp\code\..\include;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\proj\Model\deps\assimp\build\include;D:\proj\Model\deps\assimp\build;D:\proj\Model\deps\assimp\include;D:\proj\Model\deps\assimp\code;D:\proj\Model\deps\assimp\.;D:\proj\Model\deps\assimp\contrib\zlib;D:\proj\Model\deps\assimp\build\contrib\zlib;D:\proj\Model\deps\assimp\test\unit;D:\proj\Model\deps\assimp\contrib\googletest\googletest\include;D:\proj\Model\deps\assimp\contrib\googletest\googletest;D:\proj\Model\deps\assimp\contrib\pugixml\src;D:\proj\Model\deps\assimp\test\..\contrib\rapidjson\include;D:\proj\Model\deps\assimp\code\..\include;D:\proj\Model\deps\assimp\build\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\include;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64;G:\Projetos\ModernOpenGLSample\deps\assimp\include;G:\Projetos\ModernOpenGLSample\deps\assimp\code;G:\Projetos\ModernOpenGLSample\deps\assimp\.;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\zlib;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\contrib\zlib;G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\googletest\googletest\include;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\googletest\googletest;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\pugixml\src;G:\Projetos\ModernOpenGLSample\deps\assimp\test\..\contrib\rapidjson\include;G:\Projetos\ModernOpenGLSample\deps\assimp\code\..\include;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -168,12 +173,12 @@
     </Midl>
     <Link>
       <AdditionalDependencies>..\lib\Release\assimp-vc143-mt.lib;..\contrib\zlib\Release\zlibstatic.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>D:/proj/Model/deps/assimp/build;D:/proj/Model/deps/assimp/build/$(Configuration);/lib;/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>G:/Projetos/ModernOpenGLSample/deps/assimp/build/x64;G:/Projetos/ModernOpenGLSample/deps/assimp/build/x64/$(Configuration);/lib;/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/proj/Model/deps/assimp/build/lib/Release/unit.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/proj/Model/deps/assimp/build/bin/Release/unit.pdb</ProgramDataBaseFile>
+      <ImportLibrary>G:/Projetos/ModernOpenGLSample/deps/assimp/build/x64/lib/Release/unit.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/Projetos/ModernOpenGLSample/deps/assimp/build/x64/bin/Release/unit.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -182,32 +187,35 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\proj\Model\deps\assimp\build\include;D:\proj\Model\deps\assimp\build;D:\proj\Model\deps\assimp\include;D:\proj\Model\deps\assimp\code;D:\proj\Model\deps\assimp\.;D:\proj\Model\deps\assimp\contrib\zlib;D:\proj\Model\deps\assimp\build\contrib\zlib;D:\proj\Model\deps\assimp\test\unit;D:\proj\Model\deps\assimp\contrib\googletest\googletest\include;D:\proj\Model\deps\assimp\contrib\googletest\googletest;D:\proj\Model\deps\assimp\contrib\pugixml\src;D:\proj\Model\deps\assimp\test\..\contrib\rapidjson\include;D:\proj\Model\deps\assimp\code\..\include;D:\proj\Model\deps\assimp\build\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\include;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64;G:\Projetos\ModernOpenGLSample\deps\assimp\include;G:\Projetos\ModernOpenGLSample\deps\assimp\code;G:\Projetos\ModernOpenGLSample\deps\assimp\.;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\zlib;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\contrib\zlib;G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\googletest\googletest\include;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\googletest\googletest;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\pugixml\src;G:\Projetos\ModernOpenGLSample\deps\assimp\test\..\contrib\rapidjson\include;G:\Projetos\ModernOpenGLSample\deps\assimp\code\..\include;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DisableSpecificWarnings>4244</DisableSpecificWarnings>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <Optimization>MinSpace</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
-      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
       <TreatWarningAsError>true</TreatWarningAsError>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NDEBUG;ASSIMP_BUILD_NO_M3D_IMPORTER;ASSIMP_BUILD_NO_M3D_EXPORTER;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;ASSIMP_BUILD_NO_C4D_IMPORTER;RAPIDJSON_HAS_STDSTRING=1;RAPIDJSON_NOMEMBERITERATORCLASS;ASSIMP_TEST_MODELS_DIR="D:/proj/Model/deps/assimp/test/models";ASSIMP_TEST_MODELS_NONBSD_DIR="D:/proj/Model/deps/assimp/test/models-nonbsd";_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NDEBUG;ASSIMP_BUILD_NO_M3D_IMPORTER;ASSIMP_BUILD_NO_M3D_EXPORTER;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;ASSIMP_BUILD_NO_C4D_IMPORTER;RAPIDJSON_HAS_STDSTRING=1;RAPIDJSON_NOMEMBERITERATORCLASS;ASSIMP_TEST_MODELS_DIR="G:/Projetos/ModernOpenGLSample/deps/assimp/test/models";ASSIMP_TEST_MODELS_NONBSD_DIR="G:/Projetos/ModernOpenGLSample/deps/assimp/test/models-nonbsd";_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NDEBUG;ASSIMP_BUILD_NO_M3D_IMPORTER;ASSIMP_BUILD_NO_M3D_EXPORTER;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;ASSIMP_BUILD_NO_C4D_IMPORTER;RAPIDJSON_HAS_STDSTRING=1;RAPIDJSON_NOMEMBERITERATORCLASS;ASSIMP_TEST_MODELS_DIR=\"D:/proj/Model/deps/assimp/test/models\";ASSIMP_TEST_MODELS_NONBSD_DIR=\"D:/proj/Model/deps/assimp/test/models-nonbsd\";_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\proj\Model\deps\assimp\build\include;D:\proj\Model\deps\assimp\build;D:\proj\Model\deps\assimp\include;D:\proj\Model\deps\assimp\code;D:\proj\Model\deps\assimp\.;D:\proj\Model\deps\assimp\contrib\zlib;D:\proj\Model\deps\assimp\build\contrib\zlib;D:\proj\Model\deps\assimp\test\unit;D:\proj\Model\deps\assimp\contrib\googletest\googletest\include;D:\proj\Model\deps\assimp\contrib\googletest\googletest;D:\proj\Model\deps\assimp\contrib\pugixml\src;D:\proj\Model\deps\assimp\test\..\contrib\rapidjson\include;D:\proj\Model\deps\assimp\code\..\include;D:\proj\Model\deps\assimp\build\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NDEBUG;ASSIMP_BUILD_NO_M3D_IMPORTER;ASSIMP_BUILD_NO_M3D_EXPORTER;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;ASSIMP_BUILD_NO_C4D_IMPORTER;RAPIDJSON_HAS_STDSTRING=1;RAPIDJSON_NOMEMBERITERATORCLASS;ASSIMP_TEST_MODELS_DIR=\"G:/Projetos/ModernOpenGLSample/deps/assimp/test/models\";ASSIMP_TEST_MODELS_NONBSD_DIR=\"G:/Projetos/ModernOpenGLSample/deps/assimp/test/models-nonbsd\";_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\include;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64;G:\Projetos\ModernOpenGLSample\deps\assimp\include;G:\Projetos\ModernOpenGLSample\deps\assimp\code;G:\Projetos\ModernOpenGLSample\deps\assimp\.;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\zlib;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\contrib\zlib;G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\googletest\googletest\include;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\googletest\googletest;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\pugixml\src;G:\Projetos\ModernOpenGLSample\deps\assimp\test\..\contrib\rapidjson\include;G:\Projetos\ModernOpenGLSample\deps\assimp\code\..\include;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\proj\Model\deps\assimp\build\include;D:\proj\Model\deps\assimp\build;D:\proj\Model\deps\assimp\include;D:\proj\Model\deps\assimp\code;D:\proj\Model\deps\assimp\.;D:\proj\Model\deps\assimp\contrib\zlib;D:\proj\Model\deps\assimp\build\contrib\zlib;D:\proj\Model\deps\assimp\test\unit;D:\proj\Model\deps\assimp\contrib\googletest\googletest\include;D:\proj\Model\deps\assimp\contrib\googletest\googletest;D:\proj\Model\deps\assimp\contrib\pugixml\src;D:\proj\Model\deps\assimp\test\..\contrib\rapidjson\include;D:\proj\Model\deps\assimp\code\..\include;D:\proj\Model\deps\assimp\build\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\include;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64;G:\Projetos\ModernOpenGLSample\deps\assimp\include;G:\Projetos\ModernOpenGLSample\deps\assimp\code;G:\Projetos\ModernOpenGLSample\deps\assimp\.;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\zlib;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\contrib\zlib;G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\googletest\googletest\include;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\googletest\googletest;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\pugixml\src;G:\Projetos\ModernOpenGLSample\deps\assimp\test\..\contrib\rapidjson\include;G:\Projetos\ModernOpenGLSample\deps\assimp\code\..\include;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -216,12 +224,12 @@
     </Midl>
     <Link>
       <AdditionalDependencies>..\lib\MinSizeRel\assimp-vc143-mt.lib;..\contrib\zlib\MinSizeRel\zlibstatic.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>D:/proj/Model/deps/assimp/build;D:/proj/Model/deps/assimp/build/$(Configuration);/lib;/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>G:/Projetos/ModernOpenGLSample/deps/assimp/build/x64;G:/Projetos/ModernOpenGLSample/deps/assimp/build/x64/$(Configuration);/lib;/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/proj/Model/deps/assimp/build/lib/MinSizeRel/unit.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/proj/Model/deps/assimp/build/bin/MinSizeRel/unit.pdb</ProgramDataBaseFile>
+      <ImportLibrary>G:/Projetos/ModernOpenGLSample/deps/assimp/build/x64/lib/MinSizeRel/unit.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/Projetos/ModernOpenGLSample/deps/assimp/build/x64/bin/MinSizeRel/unit.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -230,31 +238,34 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\proj\Model\deps\assimp\build\include;D:\proj\Model\deps\assimp\build;D:\proj\Model\deps\assimp\include;D:\proj\Model\deps\assimp\code;D:\proj\Model\deps\assimp\.;D:\proj\Model\deps\assimp\contrib\zlib;D:\proj\Model\deps\assimp\build\contrib\zlib;D:\proj\Model\deps\assimp\test\unit;D:\proj\Model\deps\assimp\contrib\googletest\googletest\include;D:\proj\Model\deps\assimp\contrib\googletest\googletest;D:\proj\Model\deps\assimp\contrib\pugixml\src;D:\proj\Model\deps\assimp\test\..\contrib\rapidjson\include;D:\proj\Model\deps\assimp\code\..\include;D:\proj\Model\deps\assimp\build\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\include;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64;G:\Projetos\ModernOpenGLSample\deps\assimp\include;G:\Projetos\ModernOpenGLSample\deps\assimp\code;G:\Projetos\ModernOpenGLSample\deps\assimp\.;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\zlib;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\contrib\zlib;G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\googletest\googletest\include;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\googletest\googletest;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\pugixml\src;G:\Projetos\ModernOpenGLSample\deps\assimp\test\..\contrib\rapidjson\include;G:\Projetos\ModernOpenGLSample\deps\assimp\code\..\include;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <DisableSpecificWarnings>4244</DisableSpecificWarnings>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
-      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
       <TreatWarningAsError>true</TreatWarningAsError>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NDEBUG;ASSIMP_BUILD_NO_M3D_IMPORTER;ASSIMP_BUILD_NO_M3D_EXPORTER;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;ASSIMP_BUILD_NO_C4D_IMPORTER;RAPIDJSON_HAS_STDSTRING=1;RAPIDJSON_NOMEMBERITERATORCLASS;ASSIMP_TEST_MODELS_DIR="D:/proj/Model/deps/assimp/test/models";ASSIMP_TEST_MODELS_NONBSD_DIR="D:/proj/Model/deps/assimp/test/models-nonbsd";_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NDEBUG;ASSIMP_BUILD_NO_M3D_IMPORTER;ASSIMP_BUILD_NO_M3D_EXPORTER;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;ASSIMP_BUILD_NO_C4D_IMPORTER;RAPIDJSON_HAS_STDSTRING=1;RAPIDJSON_NOMEMBERITERATORCLASS;ASSIMP_TEST_MODELS_DIR="G:/Projetos/ModernOpenGLSample/deps/assimp/test/models";ASSIMP_TEST_MODELS_NONBSD_DIR="G:/Projetos/ModernOpenGLSample/deps/assimp/test/models-nonbsd";_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NDEBUG;ASSIMP_BUILD_NO_M3D_IMPORTER;ASSIMP_BUILD_NO_M3D_EXPORTER;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;ASSIMP_BUILD_NO_C4D_IMPORTER;RAPIDJSON_HAS_STDSTRING=1;RAPIDJSON_NOMEMBERITERATORCLASS;ASSIMP_TEST_MODELS_DIR=\"D:/proj/Model/deps/assimp/test/models\";ASSIMP_TEST_MODELS_NONBSD_DIR=\"D:/proj/Model/deps/assimp/test/models-nonbsd\";_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\proj\Model\deps\assimp\build\include;D:\proj\Model\deps\assimp\build;D:\proj\Model\deps\assimp\include;D:\proj\Model\deps\assimp\code;D:\proj\Model\deps\assimp\.;D:\proj\Model\deps\assimp\contrib\zlib;D:\proj\Model\deps\assimp\build\contrib\zlib;D:\proj\Model\deps\assimp\test\unit;D:\proj\Model\deps\assimp\contrib\googletest\googletest\include;D:\proj\Model\deps\assimp\contrib\googletest\googletest;D:\proj\Model\deps\assimp\contrib\pugixml\src;D:\proj\Model\deps\assimp\test\..\contrib\rapidjson\include;D:\proj\Model\deps\assimp\code\..\include;D:\proj\Model\deps\assimp\build\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NDEBUG;ASSIMP_BUILD_NO_M3D_IMPORTER;ASSIMP_BUILD_NO_M3D_EXPORTER;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;ASSIMP_BUILD_NO_C4D_IMPORTER;RAPIDJSON_HAS_STDSTRING=1;RAPIDJSON_NOMEMBERITERATORCLASS;ASSIMP_TEST_MODELS_DIR=\"G:/Projetos/ModernOpenGLSample/deps/assimp/test/models\";ASSIMP_TEST_MODELS_NONBSD_DIR=\"G:/Projetos/ModernOpenGLSample/deps/assimp/test/models-nonbsd\";_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\include;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64;G:\Projetos\ModernOpenGLSample\deps\assimp\include;G:\Projetos\ModernOpenGLSample\deps\assimp\code;G:\Projetos\ModernOpenGLSample\deps\assimp\.;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\zlib;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\contrib\zlib;G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\googletest\googletest\include;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\googletest\googletest;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\pugixml\src;G:\Projetos\ModernOpenGLSample\deps\assimp\test\..\contrib\rapidjson\include;G:\Projetos\ModernOpenGLSample\deps\assimp\code\..\include;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\proj\Model\deps\assimp\build\include;D:\proj\Model\deps\assimp\build;D:\proj\Model\deps\assimp\include;D:\proj\Model\deps\assimp\code;D:\proj\Model\deps\assimp\.;D:\proj\Model\deps\assimp\contrib\zlib;D:\proj\Model\deps\assimp\build\contrib\zlib;D:\proj\Model\deps\assimp\test\unit;D:\proj\Model\deps\assimp\contrib\googletest\googletest\include;D:\proj\Model\deps\assimp\contrib\googletest\googletest;D:\proj\Model\deps\assimp\contrib\pugixml\src;D:\proj\Model\deps\assimp\test\..\contrib\rapidjson\include;D:\proj\Model\deps\assimp\code\..\include;D:\proj\Model\deps\assimp\build\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\include;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64;G:\Projetos\ModernOpenGLSample\deps\assimp\include;G:\Projetos\ModernOpenGLSample\deps\assimp\code;G:\Projetos\ModernOpenGLSample\deps\assimp\.;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\zlib;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\contrib\zlib;G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\googletest\googletest\include;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\googletest\googletest;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\pugixml\src;G:\Projetos\ModernOpenGLSample\deps\assimp\test\..\contrib\rapidjson\include;G:\Projetos\ModernOpenGLSample\deps\assimp\code\..\include;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -263,12 +274,12 @@
     </Midl>
     <Link>
       <AdditionalDependencies>..\lib\RelWithDebInfo\assimp-vc143-mt.lib;..\contrib\zlib\RelWithDebInfo\zlibstatic.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>D:/proj/Model/deps/assimp/build;D:/proj/Model/deps/assimp/build/$(Configuration);/lib;/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>G:/Projetos/ModernOpenGLSample/deps/assimp/build/x64;G:/Projetos/ModernOpenGLSample/deps/assimp/build/x64/$(Configuration);/lib;/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/proj/Model/deps/assimp/build/lib/RelWithDebInfo/unit.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/proj/Model/deps/assimp/build/bin/RelWithDebInfo/unit.pdb</ProgramDataBaseFile>
+      <ImportLibrary>G:/Projetos/ModernOpenGLSample/deps/assimp/build/x64/lib/RelWithDebInfo/unit.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/Projetos/ModernOpenGLSample/deps/assimp/build/x64/bin/RelWithDebInfo/unit.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -276,11 +287,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\proj\Model\deps\assimp\test\CMakeLists.txt">
+    <CustomBuild Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/proj/Model/deps/assimp/test/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule G:/Projetos/ModernOpenGLSample/deps/assimp/test/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/proj/Model/deps/assimp -BD:/proj/Model/deps/assimp/build --check-stamp-file D:/proj/Model/deps/assimp/build/test/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/Projetos/ModernOpenGLSample/deps/assimp -BG:/Projetos/ModernOpenGLSample/deps/assimp/build/x64 --check-stamp-file G:/Projetos/ModernOpenGLSample/deps/assimp/build/x64/test/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -289,11 +300,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\proj\Model\deps\assimp\build\test\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\test\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/proj/Model/deps/assimp/test/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule G:/Projetos/ModernOpenGLSample/deps/assimp/test/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/proj/Model/deps/assimp -BD:/proj/Model/deps/assimp/build --check-stamp-file D:/proj/Model/deps/assimp/build/test/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/Projetos/ModernOpenGLSample/deps/assimp -BG:/Projetos/ModernOpenGLSample/deps/assimp/build/x64 --check-stamp-file G:/Projetos/ModernOpenGLSample/deps/assimp/build/x64/test/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -302,11 +313,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\proj\Model\deps\assimp\build\test\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\test\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/proj/Model/deps/assimp/test/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule G:/Projetos/ModernOpenGLSample/deps/assimp/test/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/proj/Model/deps/assimp -BD:/proj/Model/deps/assimp/build --check-stamp-file D:/proj/Model/deps/assimp/build/test/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/Projetos/ModernOpenGLSample/deps/assimp -BG:/Projetos/ModernOpenGLSample/deps/assimp/build/x64 --check-stamp-file G:/Projetos/ModernOpenGLSample/deps/assimp/build/x64/test/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -315,11 +326,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\proj\Model\deps\assimp\build\test\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\test\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/proj/Model/deps/assimp/test/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule G:/Projetos/ModernOpenGLSample/deps/assimp/test/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/proj/Model/deps/assimp -BD:/proj/Model/deps/assimp/build --check-stamp-file D:/proj/Model/deps/assimp/build/test/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/Projetos/ModernOpenGLSample/deps/assimp -BG:/Projetos/ModernOpenGLSample/deps/assimp/build/x64 --check-stamp-file G:/Projetos/ModernOpenGLSample/deps/assimp/build/x64/test/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -328,154 +339,155 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\proj\Model\deps\assimp\build\test\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\test\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\CCompilerTest.c" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\Main.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\code\Common\Version.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\code\Common\Base64.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utSimd.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utIOSystem.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utIOStreamBuffer.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utIssues.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utAnim.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\AssimpAPITest.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\AssimpAPITest_aiMatrix3x3.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\AssimpAPITest_aiMatrix4x4.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\AssimpAPITest_aiQuaternion.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\AssimpAPITest_aiVector2D.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\AssimpAPITest_aiVector3D.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\MathTest.cpp" />
-    <ClInclude Include="D:\proj\Model\deps\assimp\test\unit\MathTest.h" />
-    <ClInclude Include="D:\proj\Model\deps\assimp\test\unit\RandomNumberGeneration.h" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utBatchLoader.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utDefaultIOStream.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utFastAtof.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utMetadata.cpp" />
-    <ClInclude Include="D:\proj\Model\deps\assimp\test\unit\SceneDiffer.h" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\SceneDiffer.cpp" />
-    <ClInclude Include="D:\proj\Model\deps\assimp\test\unit\UTLogStream.h" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\AbstractImportExportBase.cpp" />
-    <ClInclude Include="D:\proj\Model\deps\assimp\test\unit\TestIOSystem.h" />
-    <ClInclude Include="D:\proj\Model\deps\assimp\test\unit\TestModelFactory.h" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utTypes.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utVersion.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utProfiler.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utSharedPPData.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utStringUtils.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\Common\utMaybe.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\Common\utMesh.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\Common\utStandardShapes.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\Common\uiScene.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\Common\utLineSplitter.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\Common\utSpatialSort.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\Common\utAssertHandler.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\Common\utXmlParser.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\Common\utBase64.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\Common\utHash.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\Common\utBaseProcess.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\Geometry\utGeometryUtils.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\ImportExport\Assxml\utAssxmlImportExport.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utLWSImportExport.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utLWOImportExport.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utSMDImportExport.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utglTFImportExport.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utglTF2ImportExport.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utHMPImportExport.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utIFCImportExport.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utFBXImporterExporter.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utImporter.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\ImportExport\utExporter.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\ut3DImportExport.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\ut3DSImportExport.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utACImportExport.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utAMFImportExport.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utASEImportExport.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utD3MFImportExport.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utQ3DImportExport.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utSTLImportExport.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utXImporterExporter.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utX3DImportExport.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utDXFImporterExporter.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utPMXImporter.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utPLYImportExport.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utObjImportExport.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utObjTools.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utOpenGEXImportExport.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utSIBImporter.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utBlenderIntermediate.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utBlendImportAreaLight.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utBlenderImportExport.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utBlendImportMaterials.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utBlenderWork.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utBVHImportExport.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utColladaExport.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utColladaImportExport.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utCSMImportExport.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utB3DImportExport.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utMDCImportExport.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utAssbinImportExport.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\ImportExport\utAssjsonImportExport.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\ImportExport\utCOBImportExport.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\ImportExport\utOgreImportExport.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\ImportExport\utQ3BSPFileImportExport.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\ImportExport\utOFFImportExport.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\ImportExport\utNFFImportExport.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\ImportExport\utXGLImportExport.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\ImportExport\utMD2Importer.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\ImportExport\utMD5Importer.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\ImportExport\utMDLImporter.cpp" />
-    <ClInclude Include="D:\proj\Model\deps\assimp\test\unit\ImportExport\MDL\MDLHL1TestFiles.h" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\ImportExport\MDL\utMDLImporter_HL1_ImportSettings.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\ImportExport\MDL\utMDLImporter_HL1_Materials.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\ImportExport\MDL\utMDLImporter_HL1_Nodes.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\ImportExport\RAW\utRAWImportExport.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\ImportExport\Terragen\utTerragenImportExport.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utMaterialSystem.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utMatrix3x3.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utMatrix4x4.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utVector3.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utImproveCacheLocality.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utFixInfacingNormals.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utGenNormals.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utTriangulate.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utTextureTransform.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utRemoveRedundantMaterials.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utRemoveVCProcess.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utScaleProcess.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utArmaturePopulate.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utJoinVertices.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utRemoveComments.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utRemoveComponent.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utVertexTriangleAdjacency.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utSplitLargeMeshes.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utFindDegenerates.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utFindInvalidData.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utLimitBoneWeights.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utPretransformVertices.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utScenePreprocessor.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utTargetAnimation.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utSortByPType.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utSceneCombiner.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\test\unit\utGenBoundingBoxesProcess.cpp" />
-    <ClCompile Include="D:\proj\Model\deps\assimp\contrib\googletest\googletest\src\gtest-all.cc" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\CCompilerTest.c" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\Main.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\code\Common\Version.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\code\Common\Base64.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utSimd.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utIOSystem.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utIOStreamBuffer.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utIssues.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utAnim.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\AssimpAPITest.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\AssimpAPITest_aiMatrix3x3.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\AssimpAPITest_aiMatrix4x4.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\AssimpAPITest_aiQuaternion.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\AssimpAPITest_aiVector2D.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\AssimpAPITest_aiVector3D.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\MathTest.cpp" />
+    <ClInclude Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\MathTest.h" />
+    <ClInclude Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\RandomNumberGeneration.h" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utBatchLoader.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utDefaultIOStream.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utFastAtof.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utMetadata.cpp" />
+    <ClInclude Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\SceneDiffer.h" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\SceneDiffer.cpp" />
+    <ClInclude Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\UTLogStream.h" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\AbstractImportExportBase.cpp" />
+    <ClInclude Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\TestIOSystem.h" />
+    <ClInclude Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\TestModelFactory.h" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utTypes.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utVersion.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utProfiler.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utSharedPPData.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utStringUtils.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\Common\utMaybe.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\Common\utMesh.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\Common\utStandardShapes.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\Common\uiScene.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\Common\utLineSplitter.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\Common\utSpatialSort.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\Common\utAssertHandler.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\Common\utXmlParser.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\Common\utBase64.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\Common\utHash.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\Common\utBaseProcess.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\Geometry\utGeometryUtils.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\ImportExport\Assxml\utAssxmlImportExport.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utLWSImportExport.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utLWOImportExport.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utSMDImportExport.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utglTFImportExport.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utglTF2ImportExport.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utHMPImportExport.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utIFCImportExport.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utFBXImporterExporter.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utImporter.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\ImportExport\utExporter.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\ut3DImportExport.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\ut3DSImportExport.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utACImportExport.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utAMFImportExport.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utASEImportExport.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utD3MFImportExport.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utQ3DImportExport.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utSTLImportExport.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utXImporterExporter.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utX3DImportExport.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utDXFImporterExporter.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utPMXImporter.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utPLYImportExport.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utObjImportExport.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utObjTools.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utOpenGEXImportExport.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utSIBImporter.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utBlenderIntermediate.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utBlendImportAreaLight.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utBlenderImportExport.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utBlendImportMaterials.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utBlenderWork.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utBVHImportExport.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utColladaExport.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utColladaImportExport.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utCSMImportExport.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utB3DImportExport.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utMDCImportExport.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utAssbinImportExport.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\ImportExport\utAssjsonImportExport.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\ImportExport\utCOBImportExport.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\ImportExport\utOgreImportExport.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\ImportExport\utQ3BSPFileImportExport.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\ImportExport\utOFFImportExport.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\ImportExport\utNFFImportExport.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\ImportExport\utXGLImportExport.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\ImportExport\utMD2Importer.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\ImportExport\utMD5Importer.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\ImportExport\utMDLImporter.cpp" />
+    <ClInclude Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\ImportExport\MDL\MDLHL1TestFiles.h" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\ImportExport\MDL\utMDLImporter_HL1_ImportSettings.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\ImportExport\MDL\utMDLImporter_HL1_Materials.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\ImportExport\MDL\utMDLImporter_HL1_Nodes.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\ImportExport\RAW\utRAWImportExport.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\ImportExport\Terragen\utTerragenImportExport.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\ImportExport\Pbrt\utPbrtImportExport.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utMaterialSystem.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utMatrix3x3.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utMatrix4x4.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utVector3.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utImproveCacheLocality.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utFixInfacingNormals.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utGenNormals.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utTriangulate.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utTextureTransform.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utRemoveRedundantMaterials.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utRemoveVCProcess.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utScaleProcess.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utArmaturePopulate.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utJoinVertices.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utRemoveComments.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utRemoveComponent.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utVertexTriangleAdjacency.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utSplitLargeMeshes.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utFindDegenerates.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utFindInvalidData.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utLimitBoneWeights.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utPretransformVertices.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utScenePreprocessor.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utTargetAnimation.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utSortByPType.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utSceneCombiner.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\test\unit\utGenBoundingBoxesProcess.cpp" />
+    <ClCompile Include="G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\googletest\googletest\src\gtest-all.cc" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\proj\Model\deps\assimp\build\ZERO_CHECK.vcxproj">
-      <Project>{C1DCD578-8119-3027-8904-351DBA7EC693}</Project>
+    <ProjectReference Include="G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\ZERO_CHECK.vcxproj">
+      <Project>{737338F8-8FA5-3667-9150-838BED0A69CA}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\proj\Model\deps\assimp\build\code\assimp.vcxproj">
-      <Project>{1F5EEFC6-3B52-3C76-9045-DB10276CAE5C}</Project>
+    <ProjectReference Include="G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\code\assimp.vcxproj">
+      <Project>{16D98C00-A318-3461-820C-A66E02197801}</Project>
       <Name>assimp</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\proj\Model\deps\assimp\build\contrib\zlib\zlibstatic.vcxproj">
-      <Project>{C02FBC3B-67FE-3F23-90C2-68349EC6C087}</Project>
+    <ProjectReference Include="G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\contrib\zlib\zlibstatic.vcxproj">
+      <Project>{B9A41B91-D813-38E5-8D0B-4AE5E323659A}</Project>
       <Name>zlibstatic</Name>
     </ProjectReference>
   </ItemGroup>

@@ -1,8 +1,8 @@
-IF(NOT EXISTS "D:/proj/Model/deps/assimp/build/install_manifest.txt")
-  MESSAGE(FATAL_ERROR "Cannot find install manifest: \"D:/proj/Model/deps/assimp/build/install_manifest.txt\"")
-ENDIF(NOT EXISTS "D:/proj/Model/deps/assimp/build/install_manifest.txt")
+IF(NOT EXISTS "G:/Projetos/ModernOpenGLSample/deps/assimp/build/x64/install_manifest.txt")
+  MESSAGE(FATAL_ERROR "Cannot find install manifest: \"G:/Projetos/ModernOpenGLSample/deps/assimp/build/x64/install_manifest.txt\"")
+ENDIF(NOT EXISTS "G:/Projetos/ModernOpenGLSample/deps/assimp/build/x64/install_manifest.txt")
 
-FILE(READ "D:/proj/Model/deps/assimp/build/install_manifest.txt" files)
+FILE(READ "G:/Projetos/ModernOpenGLSample/deps/assimp/build/x64/install_manifest.txt" files)
 STRING(REGEX REPLACE "\n" ";" files "${files}")
 FOREACH(file ${files})
   MESSAGE(STATUS "Uninstalling \"$ENV{DESTDIR}${file}\"")

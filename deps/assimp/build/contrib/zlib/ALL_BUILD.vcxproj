@@ -25,9 +25,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{186C6374-DEB7-3C75-AEA4-3D310036621F}</ProjectGuid>
+    <ProjectGuid>{22C69EDA-9C96-3CB5-B5FD-3F78766B725D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
     <ProjectName>ALL_BUILD</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -69,7 +69,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\proj\Model\deps\assimp\build\include;D:\proj\Model\deps\assimp\build;D:\proj\Model\deps\assimp\include;D:\proj\Model\deps\assimp\code;D:\proj\Model\deps\assimp\.;D:\proj\Model\deps\assimp\contrib\zlib;D:\proj\Model\deps\assimp\build\contrib\zlib;D:\proj\Model\deps\assimp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\include;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64;G:\Projetos\ModernOpenGLSample\deps\assimp\include;G:\Projetos\ModernOpenGLSample\deps\assimp\code;G:\Projetos\ModernOpenGLSample\deps\assimp\.;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\zlib;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\contrib\zlib;G:\Projetos\ModernOpenGLSample\deps\assimp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -79,7 +79,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\proj\Model\deps\assimp\build\include;D:\proj\Model\deps\assimp\build;D:\proj\Model\deps\assimp\include;D:\proj\Model\deps\assimp\code;D:\proj\Model\deps\assimp\.;D:\proj\Model\deps\assimp\contrib\zlib;D:\proj\Model\deps\assimp\build\contrib\zlib;D:\proj\Model\deps\assimp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\include;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64;G:\Projetos\ModernOpenGLSample\deps\assimp\include;G:\Projetos\ModernOpenGLSample\deps\assimp\code;G:\Projetos\ModernOpenGLSample\deps\assimp\.;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\zlib;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\contrib\zlib;G:\Projetos\ModernOpenGLSample\deps\assimp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -89,7 +89,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\proj\Model\deps\assimp\build\include;D:\proj\Model\deps\assimp\build;D:\proj\Model\deps\assimp\include;D:\proj\Model\deps\assimp\code;D:\proj\Model\deps\assimp\.;D:\proj\Model\deps\assimp\contrib\zlib;D:\proj\Model\deps\assimp\build\contrib\zlib;D:\proj\Model\deps\assimp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\include;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64;G:\Projetos\ModernOpenGLSample\deps\assimp\include;G:\Projetos\ModernOpenGLSample\deps\assimp\code;G:\Projetos\ModernOpenGLSample\deps\assimp\.;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\zlib;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\contrib\zlib;G:\Projetos\ModernOpenGLSample\deps\assimp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -99,7 +99,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\proj\Model\deps\assimp\build\include;D:\proj\Model\deps\assimp\build;D:\proj\Model\deps\assimp\include;D:\proj\Model\deps\assimp\code;D:\proj\Model\deps\assimp\.;D:\proj\Model\deps\assimp\contrib\zlib;D:\proj\Model\deps\assimp\build\contrib\zlib;D:\proj\Model\deps\assimp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\include;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64;G:\Projetos\ModernOpenGLSample\deps\assimp\include;G:\Projetos\ModernOpenGLSample\deps\assimp\code;G:\Projetos\ModernOpenGLSample\deps\assimp\.;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\zlib;G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\contrib\zlib;G:\Projetos\ModernOpenGLSample\deps\assimp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -108,11 +108,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\proj\Model\deps\assimp\contrib\zlib\CMakeLists.txt">
+    <CustomBuild Include="G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\zlib\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/proj/Model/deps/assimp/contrib/zlib/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule G:/Projetos/ModernOpenGLSample/deps/assimp/contrib/zlib/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/proj/Model/deps/assimp -BD:/proj/Model/deps/assimp/build --check-stamp-file D:/proj/Model/deps/assimp/build/contrib/zlib/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/Projetos/ModernOpenGLSample/deps/assimp -BG:/Projetos/ModernOpenGLSample/deps/assimp/build/x64 --check-stamp-file G:/Projetos/ModernOpenGLSample/deps/assimp/build/x64/contrib/zlib/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -120,12 +120,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;D:\proj\Model\deps\assimp\contrib\zlib\zconf.h.cmakein;D:\proj\Model\deps\assimp\contrib\zlib\zlib.pc.cmakein;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\proj\Model\deps\assimp\build\contrib\zlib\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\zlib\zconf.h.cmakein;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\zlib\zlib.pc.cmakein;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\contrib\zlib\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/proj/Model/deps/assimp/contrib/zlib/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule G:/Projetos/ModernOpenGLSample/deps/assimp/contrib/zlib/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/proj/Model/deps/assimp -BD:/proj/Model/deps/assimp/build --check-stamp-file D:/proj/Model/deps/assimp/build/contrib/zlib/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/Projetos/ModernOpenGLSample/deps/assimp -BG:/Projetos/ModernOpenGLSample/deps/assimp/build/x64 --check-stamp-file G:/Projetos/ModernOpenGLSample/deps/assimp/build/x64/contrib/zlib/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -133,12 +133,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;D:\proj\Model\deps\assimp\contrib\zlib\zconf.h.cmakein;D:\proj\Model\deps\assimp\contrib\zlib\zlib.pc.cmakein;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\proj\Model\deps\assimp\build\contrib\zlib\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\zlib\zconf.h.cmakein;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\zlib\zlib.pc.cmakein;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\contrib\zlib\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/proj/Model/deps/assimp/contrib/zlib/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule G:/Projetos/ModernOpenGLSample/deps/assimp/contrib/zlib/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/proj/Model/deps/assimp -BD:/proj/Model/deps/assimp/build --check-stamp-file D:/proj/Model/deps/assimp/build/contrib/zlib/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/Projetos/ModernOpenGLSample/deps/assimp -BG:/Projetos/ModernOpenGLSample/deps/assimp/build/x64 --check-stamp-file G:/Projetos/ModernOpenGLSample/deps/assimp/build/x64/contrib/zlib/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -146,12 +146,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;D:\proj\Model\deps\assimp\contrib\zlib\zconf.h.cmakein;D:\proj\Model\deps\assimp\contrib\zlib\zlib.pc.cmakein;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\proj\Model\deps\assimp\build\contrib\zlib\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\zlib\zconf.h.cmakein;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\zlib\zlib.pc.cmakein;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\contrib\zlib\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/proj/Model/deps/assimp/contrib/zlib/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule G:/Projetos/ModernOpenGLSample/deps/assimp/contrib/zlib/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/proj/Model/deps/assimp -BD:/proj/Model/deps/assimp/build --check-stamp-file D:/proj/Model/deps/assimp/build/contrib/zlib/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/Projetos/ModernOpenGLSample/deps/assimp -BG:/Projetos/ModernOpenGLSample/deps/assimp/build/x64 --check-stamp-file G:/Projetos/ModernOpenGLSample/deps/assimp/build/x64/contrib/zlib/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -159,22 +159,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;D:\proj\Model\deps\assimp\contrib\zlib\zconf.h.cmakein;D:\proj\Model\deps\assimp\contrib\zlib\zlib.pc.cmakein;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\proj\Model\deps\assimp\build\contrib\zlib\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\zlib\zconf.h.cmakein;G:\Projetos\ModernOpenGLSample\deps\assimp\contrib\zlib\zlib.pc.cmakein;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\contrib\zlib\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\proj\Model\deps\assimp\build\ZERO_CHECK.vcxproj">
-      <Project>{C1DCD578-8119-3027-8904-351DBA7EC693}</Project>
+    <ProjectReference Include="G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\ZERO_CHECK.vcxproj">
+      <Project>{737338F8-8FA5-3667-9150-838BED0A69CA}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\proj\Model\deps\assimp\build\contrib\zlib\zlibstatic.vcxproj">
-      <Project>{C02FBC3B-67FE-3F23-90C2-68349EC6C087}</Project>
+    <ProjectReference Include="G:\Projetos\ModernOpenGLSample\deps\assimp\build\x64\contrib\zlib\zlibstatic.vcxproj">
+      <Project>{B9A41B91-D813-38E5-8D0B-4AE5E323659A}</Project>
       <Name>zlibstatic</Name>
     </ProjectReference>
   </ItemGroup>

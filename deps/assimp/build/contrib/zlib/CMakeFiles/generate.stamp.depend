@@ -1,10 +1,10 @@
 # CMake generation dependency list for this directory.
-C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake
-C:/Program Files/CMake/share/cmake-3.27/Modules/CheckFunctionExists.cmake
-C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFile.cmake
-C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFileCXX.cmake
-C:/Program Files/CMake/share/cmake-3.27/Modules/CheckTypeSize.cmake
-C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake
-D:/proj/Model/deps/assimp/contrib/zlib/CMakeLists.txt
-D:/proj/Model/deps/assimp/contrib/zlib/zconf.h.cmakein
-D:/proj/Model/deps/assimp/contrib/zlib/zlib.pc.cmakein
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake
+G:/Projetos/ModernOpenGLSample/deps/assimp/contrib/zlib/CMakeLists.txt
+G:/Projetos/ModernOpenGLSample/deps/assimp/contrib/zlib/zconf.h.cmakein
+G:/Projetos/ModernOpenGLSample/deps/assimp/contrib/zlib/zlib.pc.cmakein
